@@ -5,61 +5,113 @@
 		<title>Portman Photography</title>
 	</head>
 
-	<body onload="currentSlide(1)">
+	<body>
 			<h1>Portman Photography</h1>
 			<a href="https://www.instagram.com/portmanphotography/" target="_blank">Instagram Page</a>
 			<hr/>
 
 			<div class="slideshow-container">
 
-  				<div class="mySlides fade">
+  				<div class="mySlides fade" name="slider0">
     					<div class="numbertext">1 / 5</div>
    					<a href="https://www.instagram.com/p/BbmswtJjUi9/?taken-by=portmanphotography" target="_blank"><img src="2.jpg" alt="GoldenGate" style="width:85%"></a>
     					<div class="text">Negative Space Golden Gate</div>
   				</div>
 
-  				<div class="mySlides fade">
+  				<div class="mySlides fade" name="slider0">
     					<div class="numbertext">2 / 5</div>
     					<a href="/INA.html"><img src="1.jpg" alt="Brixton" style="width:85%"></a>
     					<div class="text">Brixton</div>
   				</div>
 
-  				<div class="mySlides fade">
+  				<div class="mySlides fade" name="slider0">
     					<div class="numbertext">3 / 5</div>
     					<a href="/INA.html"><img src="3.jpg" alt="MontereyCounty" style="width:54%"></a>
     					<div class="text">Coastal Monterey County</div>
   				</div>
 
-  				<div class="mySlides fade">
+  				<div class="mySlides fade" name="slider0">
     					<div class="numbertext">4 / 5</div>
     					<a href="/INA.html"><img src="4.jpg" alt="GoldenGate2" style="width:85%"></a>
     					<div class="text">Looking up at Golden Gate</div>
   				</div>
 
-  				<div class="mySlides fade">
+  				<div class="mySlides fade" name="slider0">
     					<div class="numbertext">5 / 5</div>
     					<a href="/INA.html"><img src="5.jpg" alt="ThreeCliffs" style="width:54%"></a>
     					<div class="text">Three Cliffs Cave</div>
   				</div>
 
-  				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  				<a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+  				<a class="next" onclick="plusSlides(1,0)">&#10095;</a>
 			</div>
+			<script> currentSlide(1,0)</script>
 			<br>
 
-			<!-- The dots/circles -->
 				<div style="text-align:center">
-  				<span class="dot" onclick="currentSlide(1)"></span> 
-  				<span class="dot" onclick="currentSlide(2)"></span> 
-  				<span class="dot" onclick="currentSlide(3)"></span> 
-  				<span class="dot" onclick="currentSlide(4)"></span> 
-  				<span class="dot" onclick="currentSlide(5)"></span> 
+  				<span class="dot" name="dot0" onclick="currentSlide(1,0)"></span> 
+  				<span class="dot" name="dot0" onclick="currentSlide(2,0)"></span> 
+  				<span class="dot" name="dot0" onclick="currentSlide(3,0)"></span> 
+  				<span class="dot" name="dot0" onclick="currentSlide(4,0)"></span> 
+  				<span class="dot" name="dot0" onclick="currentSlide(5,0)"></span> 
 			</div>
 
 			<hr/>
+
 			<h2>About Me</h2>
 				<p> Hi, I'm a photographer who is currently seeking to photograph your events.</p>
 			<hr/>
+			
+			<h2>Event Photos</h2>
+
+			<div class="slideshow-container">
+
+  				<div class="mySlides fade" name="slider1">
+    					<div class="numbertext">1 / 5</div>
+   					<a href="/INA.html"><img src="6.jpg" alt="GoldenGate" style="width:85%"></a>
+    					<div class="text">Negative Space Golden Gate</div>
+  				</div>
+
+  				<div class="mySlides fade" name="slider1">
+    					<div class="numbertext">2 / 5</div>
+    					<a href="/INA.html"><img src="7.jpg" alt="Brixton" style="width:85%"></a>
+    					<div class="text">Brixton</div>
+  				</div>
+
+  				<div class="mySlides fade" name="slider1">
+    					<div class="numbertext">3 / 5</div>
+    					<a href="/INA.html"><img src="8.jpg" alt="MontereyCounty" style="width:54%"></a>
+    					<div class="text">Coastal Monterey County</div>
+  				</div>
+
+  				<div class="mySlides fade" name="slider1">
+    					<div class="numbertext">4 / 5</div>
+    					<a href="/INA.html"><img src="9.jpg" alt="GoldenGate2" style="width:85%"></a>
+    					<div class="text">Looking up at Golden Gate</div>
+  				</div>
+
+  				<div class="mySlides fade" name="slider1">
+    					<div class="numbertext">5 / 5</div>
+    					<a href="/INA.html"><img src="10.jpg" alt="ThreeCliffs" style="width:54%"></a>
+    					<div class="text">Three Cliffs Cave</div>
+  				</div>
+
+  				<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+  				<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+			</div>
+			<script> currentSlide(1,1)</script>
+			<br>
+
+				<div style="text-align:center">
+  				<span class="dot" name="dot1" onclick="currentSlide(1,1)"></span> 
+  				<span class="dot" name="dot1" onclick="currentSlide(2,1)"></span> 
+  				<span class="dot" name="dot1" onclick="currentSlide(3,1)"></span> 
+  				<span class="dot" name="dot1" onclick="currentSlide(4,1)"></span> 
+  				<span class="dot" name="dot1" onclick="currentSlide(5,1)"></span> 
+			</div>
+
+			<hr/>
+
 			<h2>Services and Prices</h2>
 
 
